@@ -1,0 +1,141 @@
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --gray-color: #b3b3b3;
+
+  --alert-color: #ff0000;
+  --alert-color-hover: #f00000;
+  --alert-color-active: #ff3333;
+  --alert-color-light: #ffcccc;
+
+  --attention-color: #ffd500;
+  --attention-color-hover: #f0c800;
+  --attention-color-active: #e6bf00;
+  --attention-color-light: #fff7cc;
+
+  --success-color: #29a366;
+  --success-color-hover: #26975e;
+  --success-color-active: #248f59;
+  --success-color-light: #adebcc;
+
+  --info-color: #269dd9;
+  --info-color-hover: #2494cc;
+  --info-color-active: #228ec3;
+  --info-color-light: #d4ebf7;
+
+  --gray1-color: #333333;
+  --gray2-color: #4d4d4d;
+  --gray3-color: #999999;
+  --gray4-color: #cccccc;
+  --gray5-color: #e6e6e6;
+  --gray6-color: #f2f2f2;
+  --gray7-color: #fafafa;
+
+  --transparent-color: rgba(0, 0, 0, 0);
+  --overlay-color: rgba(0, 0, 0, 0.22);
+
+  /* Themes' accent color
+  * Blue:   hsl (220, 60%, 50%); #3366CC
+  * Green:  hsl (130, 40%, 50%); #4DB35D
+  * Yellow: hsl ( 50, 70%, 50%); #584713
+  * Red:    hsl (350, 70%, 50%); #D92644
+  * Purple: hsl (300, 50%, 50%); #BF40BF
+  */
+
+  --accent-color-h: 220; /* old secondary */
+  --accent-color-s: 60%;
+  --accent-color-l: 50%;
+  --accent-color: hsl(
+    var(--accent-color-h),
+    var(--accent-color-s),
+    var(--accent-color-l)
+  );
+  --accent-color-hover: hsl(var(--accent-color-h), var(--accent-color-s), 47%);
+  --accent-color-active: hsl(var(--accent-color-h), var(--accent-color-s), 45%);
+
+  --accent3-color: hsl(var(--accent-color-h), var(--accent-color-s), 84%);
+  --accent2-color: hsl(var(--accent-color-h), var(--accent-color-s), 92%);
+  --accent1-color: hsl(var(--accent-color-h), var(--accent-color-s), 96%);
+
+  --main-color: hsl(
+    /* old primary */ var(--accent-color-h),
+    var(--accent-color-s),
+    20%
+  );
+  --main-color-hover: hsl(var(--accent-color-h), var(--accent-color-s), 23%);
+  --main-color-active: hsl(var(--accent-color-h), var(--accent-color-s), 25%);
+
+  /* radius none  fine  some  full
+   * -lg    0     8     16    24    - cards, popups
+   * -md    0     4     8     16    - field areas
+   * -sm    0     4     8     100   - buttons, inputs
+   * -xs    0     4     4     4     - menus, dropdowns
+   */
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 100px;
+  --radius-xs: 4px;
+
+  --font-family: "IBM Plex Sans", sans-serif;
+  --font-size: 16px;
+
+  --extra-small-screen: 480px;
+  --small-screen: 768px;
+  --medium-screen: 992px;
+  --large-screen: 1200px;
+  --font-size-extra-small: 10px;
+  --font-size-extra-large: 18px;
+  --font-size-small-2: 11px;
+  --font-size-small-1: 12px;
+  --font-size-small: 13px;
+  --font-size-base: 14px;
+  --font-size-base-1: 15px;
+  --font-size-base-2: 16px;
+  --leftmenu-large-sreen: 190px;
+  --leftmenu-extra-small-screen: 260px;
+  --z-index-banner: 1000;
+  --z-index-navbar: 1010;
+  --z-index-dropdown-underlay: 3990;
+  --z-index-dropdown-popup: 4000;
+  --z-index-dropdown-fixed: 4000;
+  --z-index-dialog-underlay: 4100;
+  --z-index-left-menu: 5000;
+  --z-index-loader: 6000;
+  --z-index-modal: 9999;
+  --z-index-update-bar: 9999;
+  --icon-padding: 4px;
+}
+
+::selection {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+html {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--gray2-color);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+body {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--white-color);
+  -webkit-tap-highlight-color: transparent;
+}

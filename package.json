@@ -1,0 +1,38 @@
+{
+  "name": "devextreme-styles-for-bit-all",
+  "description": "Dev Extreme Data Grid styling for Socrate Next @ BIT Software",
+  "dependencies": {
+    "devexpress-diagram": "2.1.32",
+    "devextreme": "21.1.6",
+    "devextreme-quill": "1.4.2",
+    "devextreme-react": "21.1.6",
+    "es6-object-assign": "1.1.0",
+    "globalize": "1.7.0",
+    "inferno": "7.4.10",
+    "inferno-clone-vnode": "7.4.10",
+    "inferno-compat": "7.4.10",
+    "inferno-create-class": "7.4.10",
+    "inferno-create-element": "7.4.10",
+    "inferno-dom": "1.0.7",
+    "inferno-extras": "7.4.10",
+    "inferno-hydrate": "7.4.10",
+    "jszip": "3.7.1",
+    "luxon": "1.28.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.8",
+    "systemjs-plugin-json": "0.3.0"
+  },
+  "keywords": [],
+  "version": "0.0.94",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

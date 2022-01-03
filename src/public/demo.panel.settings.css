@@ -1,0 +1,92 @@
+.dx-device-generic {
+  padding: 10px;
+  overflow: auto;
+}
+.caption {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid var(--accent-color);
+  color: var(--main-color);
+}
+.caption.no-border {
+  border: none;
+}
+.options,
+.options-gray {
+  padding: 20px;
+  background-color: var(--accent1-color);
+  margin-top: 20px;
+  border-radius: var(--radius-lg);
+}
+.options-gray {
+  background-color: var(--gray6-color);
+}
+.panel-name {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--accent-color);
+}
+.option {
+  min-width: 20%;
+  display: inline-block;
+  margin: 10px 20px 0 0;
+  vertical-align: middle;
+}
+.option .dx-selectbox {
+  margin-right: 20px;
+}
+.option.down {
+  padding-top: 20px;
+}
+.option.color-selector {
+  min-width: 150px;
+  width: 150px;
+}
+.color-hsl {
+  font-size: 0.9em;
+}
+.buttons-top {
+  margin-bottom: 10px;
+}
+.button-text {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: var(--accent1-color);
+  color: var(--accent-color);
+  border: none;
+  border-radius: var(--radius-sm);
+}
+.button-text:hover {
+  background-color: var(--accent2-color);
+  color: var(--main-color);
+}
+.button-text:active {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+.color-box {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--white-color);
+}
+.color-main {
+  background-color: var(--main-color);
+}
+.color-accent {
+  background-color: var(--accent-color);
+}
+.color-accent3 {
+  background-color: var(--accent3-color);
+}
+.color-accent2 {
+  background-color: var(--accent2-color);
+}
+.color-accent1 {
+  background-color: var(--accent1-color);
+}
+.color-white {
+  background-color: var(--white-color);
+}
